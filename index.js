@@ -7,3 +7,9 @@ function Main () {
 };
 
 Main();
+
+console.log('commit1')
+console.log('commit2')
+
+const meuConsole = (msg, cls) => console.log(msg);
+meuConsole('Feature de teste 2', console)
