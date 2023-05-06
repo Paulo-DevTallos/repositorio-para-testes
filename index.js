@@ -1,11 +1,9 @@
-const main = {
-    init: () => {
-        this.cacheSelectors; 
-    },
-
-    cacheSelectors: () => {
-        console.log('hello world')
+function Main () {
+    const testeDeExibição = {
+        processando: (value) => console.log(value)
     }
-}
 
-main.init()
+    console.log(testeDeExibição.processando('Ola'))
+};
+
+Main();
