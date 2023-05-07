@@ -13,3 +13,9 @@ console.log('commit2')
 
 const meuConsole = (msg, cls) => console.log(msg);
 meuConsole('Feature de teste 2', console)
+
+function operacao(n1, n2) {
+    return n1 + n2
+}
+
+console.log(operacao(1,3))
